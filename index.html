@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elmin's Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+    	<img src="./logo.png">
+    	<h1>Hobbysta. Gracz. Malarz.</h1>
+    	<div class="socialmedia">
+    		<a href="https://www.facebook.com/brushesforhisthrone/"><img src="./fb.png"></a>
+    		<a href="https://www.instagram.com/paint_for_the_paint_god/"><img src="./inst.png"></a>
+            <img src="./pin.png">
+    		<img src="./email.png">
+    	</div>
+    </header>
+    
+    <div>
+        <ul class="menu">
+    	<li><a class="active" href="#">Home</a></li>
+    	<li><a href="gallery.html">Galeria</a></li>
+    	<li><a href="https://elminsnerdcave.wordpress.com">Blog</a></li>
+    	<li><a href="about.html">O mnie</a></li>
+    	<li><a href="contact.html">Kontakt</a></li>
+    </ul>
+    </div>
+
+    <div>
+        <img id="banner" src="banner.png">
+    </div>
+
+    <div class="intro">
+        <h2>Krótki fluffik o tym dlaczego lubie to hobby.</h2>
+        <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sodales elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent hendrerit rutrum nunc eget tempor. Sed pharetra mi sit amet risus tincidunt, non iaculis eros ullamcorper. Vestibulum pretium, lacus condimentum imperdiet sollicitudin, sapien massa luctus dui, in convallis dui erat eget velit. Duis in justo eget diam volutpat posuere. Fusce egestas sollicitudin faucibus. Sed non pharetra eros. Sed sollicitudin nisl ornare, vestibulum sem a, pellentesque ex. Aenean imperdiet nunc sed euismod tempus. Vivamus fermentum, nibh at facilisis ultricies, dui lectus sodales ipsum, id maximus justo mauris at ligula. Sed porta at massa sit amet pharetra. Vivamus auctor, felis vel consectetur placerat, erat risus eleifend arcu, at hendrerit metus sapien sit amet nibh. Nam ac pulvinar odio, non convallis diam. Suspendisse at placerat neque. Integer ultrices elit quis mauris auctor dapibus.
+        </p>
+    </div>
+
+<!--
+    <div class="box">
+    	<a href="gallery.html"><img class="image" src="./galery2.png" alt="gallery"></a>
+    	<a href="about.html"><img class="image" src="./about2.png" alt="about"></a>
+        <a href="#"><img class="image" src="./contact2.png" alt="contact"></a>
+    </div>
+-->
+    <div class="box">
+        <a href="gallery.html"><img class="image" src="./galery2.png" alt="gallery"></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sodales elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent hendrerit rutrum nunc eget tempor. Sed pharetra mi sit amet risus tincidunt, non iaculis eros ullamcorper. Vestibulum pretium, lacus condimentum imperdiet sollicitudin, sapien massa luctus dui, in convallis dui erat eget velit. </p>
+    </div>
+
+    <footer>
+        <h4>Copyrajty</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sodales elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent hendrerit rutrum nunc eget tempor. </p>
+            
+    </footer>  
+<script type="text/javascript">
+    // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+</body>
+</html>
